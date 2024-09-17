@@ -1,1 +1,17 @@
-// header style
+.header{
+    background: url(/packet-main/img/images.png) no-repeat center center fixed;
+    background-repeat: no-repeat;
+background-size: cover;
+    height: 900px;
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__logo{
+        font-size: 45px;
+        font-weight: 800;
+    }
+}
